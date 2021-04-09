@@ -1,0 +1,22 @@
+
+
+
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+header div .bg{
+    background-image: url(https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-1452531737Jr0.jpg);
+    background-size: 30px 50px;
+    max-height: 150px;
+    width: 100%
+    
+}
+
+header div .floater {
+    background-image:url(assets/images/MePic.png) ;
+    max-height: 300px;
+    
+
+}
