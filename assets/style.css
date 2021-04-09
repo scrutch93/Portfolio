@@ -1,10 +1,13 @@
 
-
+body{
+background-color: rgb(223, 77, 10);
+}
 
 
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: red;
+    color: rgb(168, 31, 31);
+    
 }
 header div .bg{
     background-image: url(https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-1452531737Jr0.jpg);
@@ -18,5 +21,10 @@ header div .floater {
     background-image:url(assets/images/MePic.png) ;
     max-height: 300px;
     
+}
+
+.text-right {
+    text-align: right;
+
 
 }
