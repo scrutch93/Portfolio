@@ -49,7 +49,7 @@ header nav  {
 
 }
 
-main section .container {
+.container {
     display: flex;
     flex-direction: row;
     
@@ -58,23 +58,27 @@ main section .container {
 .flexbox {
     
 
-
 }
 
 .flexbox1{
-    min-height: 100px;
-
+    background-image:url(./images/Tokyo-City.jpg);
+    min-height: 200px;
 }
 .flexbox2{
+    background-image:url(./images/controllers.jpg);
     min-height: 200px;
-
 }
+
+
 .flexbox3{
-    min-height: 300px;
-
+    background-image:url(./images/galaxy.jpg);
+    min-height: 200px;
 }
+
+
     
 .flexbox4{
+    background-image:url(./images/Great-wave.jpg);
     min-height: 300px;
-
 }
+
