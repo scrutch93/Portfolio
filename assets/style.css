@@ -1,14 +1,26 @@
+*{
+
+
+}
+
 
 body{
-background-color: rgb(223, 77, 10);
+    margin: 0%;
+    background-color: rgb(75, 63, 57);
+
 }
 
 
 header {
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
     background-color: darkred;
-    height: 100px;
+    height: 200px;
+    padding-top: 40px;
+    
+    
+    
     
     
 }
@@ -22,15 +34,14 @@ header div .bg{
 }
 
 header div .floater {
-    background-image:url(assets/images/MePic.png) ;
+    background-image:url(./images/MePic.png) ;
     max-height: 250px;
     border-radius: 2%;
     
 }
 
 header nav  {
-    
-    text-decoration: darkred;
+    text-decoration: rgb(255, 255, 255);
     text-decoration: none;
     float: right;
 
