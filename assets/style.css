@@ -1,12 +1,8 @@
-*{
-
-
-}
 
 
 body{
     margin: 0%;
-    background-color: rgb(75, 63, 57);
+    background-color: rgb(24, 82, 121);
 
 }
 
@@ -38,12 +34,47 @@ header div .floater {
     max-height: 250px;
     border-radius: 2%;
     
+    
 }
 
 header nav  {
     text-decoration: rgb(255, 255, 255);
     text-decoration: none;
     float: right;
+    background-color: rgb(117, 23, 23);
+    line-height: 30px;
+    border-radius: 30px;
+    padding: 15px;
 
+
+}
+
+main section .container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flexbox {
+    
+
+
+}
+
+.flexbox1{
+    min-height: 100px;
+
+}
+.flexbox2{
+    min-height: 200px;
+
+}
+.flexbox3{
+    min-height: 300px;
+
+}
+    
+.flexbox4{
+    min-height: 300px;
 
 }
