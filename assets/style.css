@@ -49,10 +49,31 @@ header nav  {
 
 }
 
-.container {
+.about{
     display: flex;
-    flex-direction: row;
+    flex: wrap;
+
+}
+
+ h2 {
+margin-left: 50px;
+border-right: solid cornflowerblue;
+padding-right: 30px;
+}
+
+
+
+
+.container {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+      
     
+    
+    
+
 }
 
 .flexbox {
@@ -62,17 +83,26 @@ header nav  {
 
 .flexbox1{
     background-image:url(./images/Tokyo-City.jpg);
-    min-height: 200px;
+    min-height: 400px;
+    min-width: fit-content;
+    border: 5px solid #555;
+    flex-grow: 2;
 }
 .flexbox2{
     background-image:url(./images/controllers.jpg);
     min-height: 200px;
+    min-width: fit-content;
+    border: 5px solid #555;
+    flex-grow: 1;
 }
 
 
 .flexbox3{
     background-image:url(./images/galaxy.jpg);
     min-height: 200px;
+    min-width: fit-content;
+    border: 5px solid #555;
+    flex-grow: 2;
 }
 
 
@@ -80,5 +110,7 @@ header nav  {
 .flexbox4{
     background-image:url(./images/Great-wave.jpg);
     min-height: 300px;
+    min-width: fit-content;
+    border: 5px solid #555;
 }
 
