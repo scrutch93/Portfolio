@@ -1,9 +1,19 @@
 
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0%;
     background-color: rgb(24, 82, 121);
 
+}
+#me{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  
+    
 }
 
 
@@ -14,12 +24,19 @@ header {
     background-color: darkred;
     height: 200px;
     padding-top: 40px;
-    
-    
-    
-    
-    
 }
+
+header h1{
+    display: flex;
+    background-color: tomato ;
+    
+
+
+
+} 
+    
+    
+
 header div .bg{
     background-image: url(https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-1452531737Jr0.jpg);
     background-size: 30px 50px;
@@ -38,20 +55,28 @@ header div .floater {
 }
 
 header nav  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: rgb(255, 255, 255);
     text-decoration: none;
     float: right;
-    background-color: rgb(117, 23, 23);
+    background-color: rgb(83, 3, 3);
     line-height: 30px;
     border-radius: 30px;
     padding: 15px;
+    
 
 
 }
+header nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
 
-.about{
+#about{
     display: flex;
     flex: wrap;
+   
 
 }
 
@@ -64,11 +89,13 @@ padding-right: 30px;
 
 
 
-.container {
-    float: right;
+#container {
+    padding-left:250px;
+    padding-right:250px;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content:center;
+    
       
     
     
@@ -76,17 +103,15 @@ padding-right: 30px;
 
 }
 
-.flexbox {
-    
 
-}
+
 
 .flexbox1{
     background-image:url(./images/Tokyo-City.jpg);
     min-height: 400px;
     min-width: fit-content;
     border: 5px solid #555;
-    flex-grow: 2;
+    flex-grow: 3;
 }
 .flexbox2{
     background-image:url(./images/controllers.jpg);
@@ -102,7 +127,7 @@ padding-right: 30px;
     min-height: 200px;
     min-width: fit-content;
     border: 5px solid #555;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 
@@ -112,5 +137,23 @@ padding-right: 30px;
     min-height: 300px;
     min-width: fit-content;
     border: 5px solid #555;
+    flex-grow: 1;
 }
 
+#Contact {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 150px;
+ 
+}
+button a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#resume{
+    display: flex;
+    flex-direction:column;
+    border-right: solid cornflowerblue;
+}
