@@ -85,14 +85,13 @@ header nav a{
 }
 
  h2 {
-margin-left: 50px;
-
-padding-right: 30px;
+    margin-left: 50px;
+    padding-right: 30px;
 }
 
 h2 .projects {
     margin-left: 50px;  
-border-right: solid rgb(27, 51, 87);
+    border-right: solid rgb(27, 51, 87);
 
 }
 
@@ -103,26 +102,24 @@ border-right: solid rgb(27, 51, 87);
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     
       
-    
-    
-    
 
 }
 
 
 
 
-.flexbox1{
+.flexbox1 {
     background-image:url(./images/Tokyo-City.jpg);
     min-height: 400px;
     min-width: fit-content;
     border: 5px solid rgb(141, 42, 42);
     flex-grow: 3;
+    
 }
-.flexbox2{
+.flexbox2 {
     background-image:url(./images/controllers.jpg);
     min-height: 200px;
     min-width: fit-content;
