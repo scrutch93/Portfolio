@@ -4,7 +4,7 @@ html{
 }
 body{
     margin: 0%;
-    background-color: rgb(24, 82, 121);
+    background-color: rgb(6, 21, 31);
 
 }
 #me{
@@ -26,11 +26,10 @@ header {
     padding-top: 40px;
 }
 
-header h1{
+header h1 {
     display: flex;
-    background-color: tomato ;
+    background-color: rgb(83, 3, 3);
     
-
 
 
 } 
@@ -55,6 +54,7 @@ header div .floater {
 }
 
 header nav  {
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: rgb(255, 255, 255);
     text-decoration: none;
@@ -68,6 +68,7 @@ header nav  {
 
 }
 header nav a{
+    display: inline-flex;
     text-decoration: none;
     font-size: 30px;
     color: white;
@@ -82,19 +83,24 @@ header nav a{
 
  h2 {
 margin-left: 50px;
-border-right: solid cornflowerblue;
+
 padding-right: 30px;
 }
 
+h2 .projects {
+    margin-left: 50px;  
+border-right: solid rgb(27, 51, 87);
 
+}
 
 
 #container {
     padding-left:250px;
-    padding-right:250px;
+    /* padding-right:250px; */
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content:flex-end;
+    justify-content: space-between;
     
       
     
@@ -110,14 +116,14 @@ padding-right: 30px;
     background-image:url(./images/Tokyo-City.jpg);
     min-height: 400px;
     min-width: fit-content;
-    border: 5px solid #555;
+    border: 5px solid rgb(141, 42, 42);
     flex-grow: 3;
 }
 .flexbox2{
     background-image:url(./images/controllers.jpg);
     min-height: 200px;
     min-width: fit-content;
-    border: 5px solid #555;
+    border: 5px solid rgb(141, 42, 42);
     flex-grow: 1;
 }
 
@@ -126,7 +132,7 @@ padding-right: 30px;
     background-image:url(./images/galaxy.jpg);
     min-height: 200px;
     min-width: fit-content;
-    border: 5px solid #555;
+    border: 5px solid rgb(141, 42, 42);
     flex-grow: 1;
 }
 
@@ -136,7 +142,7 @@ padding-right: 30px;
     background-image:url(./images/Great-wave.jpg);
     min-height: 300px;
     min-width: fit-content;
-    border: 5px solid #555;
+    border: 5px solid rgb(141, 42, 42);
     flex-grow: 1;
 }
 
